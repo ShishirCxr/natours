@@ -18,6 +18,7 @@ const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
 const { parseArgs } = require('util');
 
+// Start express App
 const app = express();
 
 app.set('view engine', 'pug');
